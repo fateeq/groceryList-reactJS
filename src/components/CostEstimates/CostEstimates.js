@@ -1,7 +1,10 @@
 import React from 'react';
+import SectionTitle from '../SectionTitle';
 
 const CostEstimates = () => {
-	return <h1>Your Cost Estimates</h1>
+	return (
+		<SectionTitle text="Your Cost Estimates"/>
+	);
 }
 
 export default CostEstimates;

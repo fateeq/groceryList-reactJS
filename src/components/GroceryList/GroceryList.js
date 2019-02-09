@@ -1,7 +1,10 @@
 import React from 'react';
+import SectionTitle from '../SectionTitle';
 
 const GroceryList = () => {
-	return <h1>Your Weekly Grocery List</h1>
+	return (
+		<SectionTitle text="Your Grocery List"/>
+	);
 }
 
 export default GroceryList;

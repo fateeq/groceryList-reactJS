@@ -1,0 +1,8 @@
+#calendarFeatures{
+	display:flex;
+	justify-content: space-between;
+	padding: 5px 0 30px 0;
+	width:986px;
+	margin:auto;
+}
+
