@@ -1,7 +1,7 @@
 import React from 'react';
-import MealPlan from '../components/MealPlan/MealPlan';
-import GroceryList from '../components/GroceryList/GroceryList';
-import CostEstimates from '../components/CostEstimates/CostEstimates';
+import MealPlan from './MealPlan';
+import GroceryList from './GroceryList';
+import CostEstimates from './CostEstimates';
 
 const App = () => {
   return (

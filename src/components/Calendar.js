@@ -1,9 +1,8 @@
 import React from 'react';
-import './Calendar.css';
 
 const Calendar = () => {
 	return (
-		<table>
+		<table id="calendar">
 			<tr class="row1">
 				<th>Monday</th>
 				<th>Tuesday</th>
