@@ -1,0 +1,199 @@
+/* GENERIC formatting */
+
+	.section {
+		width:986px;
+		margin:auto;
+	}
+
+	.showSuggestionsBtn {
+		color: rgb(177,177,177);
+		font-weight: normal;
+		cursor: pointer;
+	}
+
+/* --- SECTION 1: Weekly Calendar --- */
+
+	.calendar { 		/* This is a table element */
+		border-collapse: collapse;
+	}
+
+	#calendar_wk1 {
+		margin-top: 15px;
+	}
+
+	#calendar_wk2 {
+		display: none;
+	}
+
+	.calendar, .calendar th, .calendar td {
+		border: 1px solid rgb(217, 217, 217);
+	}
+
+	.calendar td {
+		width: 130px;
+	}
+
+	.calendar .row3 td {
+		padding:5px;
+	}
+
+	.calendar .row1 {
+		background-color: rgb(191, 191, 191);
+		color:white;
+		text-align: center;
+	}
+
+	.calendar .row2 {
+		background-color: rgb(231, 230, 230);
+		text-align: center;
+	}
+
+	.calendar .row3 {
+		background-color: rgb(231, 230, 230); 
+		height:170px;
+	}
+
+	.calendar input, .calendar textarea {
+		background-color: rgb(231, 230, 230);
+		font-family: Calibri;
+		font-size: 16px;
+		text-align: center;
+		width:130px;
+		border: 0;
+		padding: 0;
+		margin:0;
+	}
+
+	.calendar textarea {
+		resize:none;
+		height:60px;	
+	}
+
+	.calendar input:focus, .calendar textarea:focus {
+		outline: none;
+	}
+
+	.calendar ::placeholder {
+		color:rgb(179,179,179);
+	}
+
+	#calendarFeatures {		/* These are the links/buttons below the calendar */
+		display:flex;
+		justify-content: space-between;
+		padding: 5px 0 30px 0;
+		width:986px;
+		margin:auto;
+	}
+
+	#addWeekBtn {
+	 color:rgb(68,114,196);
+	 cursor: pointer;
+	}
+
+	#rmWeekBtn {
+		display: none;
+		color:rgb(197,90,17);
+		cursor: pointer;
+	}
+
+	#searchBar {
+		border: 1px solid rgb(177,177,177);
+		padding:5px;
+		width:300px;
+		margin:auto;
+	}
+
+	.fa-search {
+		color: rgb(140,140,140);
+	}
+
+	#searchBar input {
+		border: none;
+		width:270px;
+	}
+
+	#searchBar input:focus {
+		outline:none;
+	}
+
+	#mealsList {
+		margin-bottom: 50px;
+	}
+
+	#mealsList ul {
+		columns: 3;
+		list-style-type: none;
+		line-height: 25px;
+	}
+
+	#hideMealSuggestionsBtn, #mealSuggestions {
+		display:none;
+	}
+
+
+/* --- SECTION 2: Auto-generated Grocery List --- */
+
+	#groceryList { 	/* This is a table element*/
+		margin:auto;
+		border-collapse: collapse;
+		text-align:left;
+	}
+
+	#groceryList .row1 {  
+		color:rgb(197,90,17);
+	}
+
+	/* (See generic settings for Suggestions Button) */
+
+	#groceryList th {
+		padding-bottom: 15px;
+	}
+
+	#groceryList .row2 {
+		vertical-align: top;
+	}
+
+	#groceryList .row2 .item {  /* Consists of ingredient name and icons */
+		display: flex;
+		justify-content: space-between;
+		width:246.5px;
+	}
+
+	#groceryList .icons {
+		padding-right: 40px;
+	}
+
+	#groceryList .plusBtn {
+		color: rgb(68,114,196);
+		padding:0 2px;
+		cursor: pointer;
+	}
+
+	#groceryList .minusBtn {
+		color: rgb(197,90,17);
+		padding:0 2px;
+		cursor: pointer;
+	}
+
+	#groceryList .row2 .addIngredientBtn {
+		padding-top: 10px;
+		color: rgb(177,177,177);
+	}
+
+	#ShowAllIngredientsContainer {
+		text-align: right;
+	}
+
+	#ingredientSuggestions {
+		display: inline-block;
+		align:right;
+		padding: 20px 0 30px 0;
+	}
+
+/* --- SECTION 3: Cost Estimates --- */
+
+	#chartContainer {
+		margin-bottom: 20px;
+		height: 310px; 
+		width: 40%;
+	}

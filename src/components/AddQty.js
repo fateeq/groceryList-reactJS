@@ -4,12 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
 library.add(faPlusCircle);
 
-const AddWeek = () => {
+const AddQty = () => {
 	return (
-		<div id="addWeekBtn">
-			<FontAwesomeIcon icon="plus-circle" size="xs"/> Week
-		</div>
+		<span className="plusBtn">
+			<FontAwesomeIcon icon="plus-circle" size="xs"/>
+		</span>
 	);
 }
 
-export default AddWeek;
+export default AddQty;

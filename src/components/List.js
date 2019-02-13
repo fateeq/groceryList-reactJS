@@ -1,32 +1,24 @@
 import React from 'react';
+import ShowIngredientSuggestions from './ShowIngredientSuggestions';
+import AddIngredient from './AddIngredient';
+import AddQty from './AddQty';
+import RmvQty from './RmvQty';
 
 const List = () => {
 	return (
-		<table >
-			<tr >
-				<th> Meat/Protein
-					<div className="showSuggestionsBtn">
-						<span className="fas fa-caret-down"></span>
-						Show suggestions
-					</div>
+		<table id="groceryList">
+			<tr className="row1">
+				<th> Protein
+					<ShowIngredientSuggestions/>
 				</th>
 				<th> Fruits & Vegetables
-					<div className="showSuggestionsBtn">
-						<span className="fas fa-caret-down"></span>
-						Show suggestions
-					</div>
+					<ShowIngredientSuggestions/>
 				</th>
 				<th> Other Food
-					<div className="showSuggestionsBtn">
-						<span className="fas fa-caret-down"></span>
-						Show suggestions
-					</div>
+					<ShowIngredientSuggestions/>
 				</th>
 				<th> Non-Food
-					<div className="showSuggestionsBtn">
-						<span className="fas fa-caret-down"></span>
-						Show suggestions
-					</div>
+					<ShowIngredientSuggestions/>
 				</th>
 			</tr>
 			<tr className="row2">
@@ -34,74 +26,62 @@ const List = () => {
 					<div className="item flex-container">
 						<div>Chicken</div>
 						<div className="icons">	
-							<span className="fas fa-plus-circle plusBtn"></span>
-							<span className="fas fa-minus-circle minusBtn"></span>
+							<AddQty/>
+							<RmvQty/>
 						</div>
 					</div>
-					<div className="addIngredientBtn">
-						<span className="fas fa-plus"></span>
-						Ingredient
-					</div>
+					<AddIngredient/>
 				</td>
 				<td id="fruitsVegetables">
 					<div className="item flex-container">
 						<div>Mushrooms</div>
 						<div className="icons">	
-							<span className="fas fa-plus-circle plusBtn"></span>
-							<span className="fas fa-minus-circle minusBtn"></span>
+							<AddQty/>
+							<RmvQty/>
 						</div>
 					</div>
 					<div className="item flex-container">
 						<div>Red Pepper</div>
 						<div className="icons">	
-							<span className="fas fa-plus-circle plusBtn"></span>
-							<span className="fas fa-minus-circle minusBtn"></span>
+							<AddQty/>
+							<RmvQty/>
 						</div>
 					</div>
 					<div className="item flex-container">
 						<div>Snap Peas</div>
 						<div className="icons">	
-							<span className="fas fa-plus-circle plusBtn"></span>
-							<span className="fas fa-minus-circle minusBtn"></span>
+							<AddQty/>
+							<RmvQty/>
 						</div>
 					</div>
-					<div className="addIngredientBtn">
-						<span className="fas fa-plus"></span>
-						Ingredient
-					</div>
+					<AddIngredient/>
 				</td>
 				<td id="otherFood">
 					<div className="item flex-container">
 						<div>Szechuan Sauce</div>
 						<div className="icons">	
-							<span className="fas fa-plus-circle plusBtn"></span>
-							<span className="fas fa-minus-circle minusBtn"></span>
+							<AddQty/>
+							<RmvQty/>
 						</div>
 					</div>
 					<div className="item flex-container">
 						<div>Noodles</div>
 						<div className="icons">	
-							<span className="fas fa-plus-circle plusBtn"></span>
-							<span className="fas fa-minus-circle minusBtn"></span>
+							<AddQty/>
+							<RmvQty/>
 						</div>
 					</div>
-					<div className="addIngredientBtn">
-						<span className="fas fa-plus"></span>
-						Ingredient
-					</div>
+					<AddIngredient/>
 				</td>
 				<td id="nonFood">
 					<div className="item flex-container">
 						<div>Dishwashing Liquid x 2</div>
 						<div className="icons">	
-							<span className="fas fa-plus-circle plusBtn"></span>
-							<span className="fas fa-minus-circle minusBtn"></span>
+							<AddQty/>
+							<RmvQty/>
 						</div>
 					</div>
-					<div className="addIngredientBtn">
-						<span className="fas fa-plus"></span>
-						Ingredient
-					</div>
+					<AddIngredient/>
 				</td>
 			</tr>
 		</table>

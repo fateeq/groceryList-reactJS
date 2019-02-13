@@ -4,12 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
 library.add(faCaretDown);
 
-const ShowMealSuggestions = () => {
+const ShowAllIngredients = () => {
 	return (
-		<div className="showSuggestionsBtn">
-			<FontAwesomeIcon icon="caret-down" /> Show meal suggestions
+		<div id="ingredientSuggestions" className="showSuggestionsBtn">
+			<FontAwesomeIcon icon="caret-down" /> Show suggestions for all categories
 		</div>
 	);
 }
 
-export default ShowMealSuggestions;
+export default ShowAllIngredients;

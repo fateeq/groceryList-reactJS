@@ -2,8 +2,8 @@ import React from 'react';
 
 const Calendar = () => {
 	return (
-		<table id="calendar">
-			<tr class="row1">
+		<table id="calendar_wk1" className="calendar">
+			<tr className="row1">
 				<th>Monday</th>
 				<th>Tuesday</th>
 				<th>Wednesday</th>
@@ -12,7 +12,7 @@ const Calendar = () => {
 				<th>Saturday</th>
 				<th>Sunday</th>
 			</tr>
-			<tr class="row2">
+			<tr className="row2">
 				<td><textarea placeholder="Meal name" maxlength="40" name="mon_wk1_meal"></textarea></td>
 				<td><textarea placeholder="Meal name" maxlength="40" name="tue_wk1_meal"></textarea></td>
 				<td><textarea placeholder="Meal name" maxlength="40" name="wed_wk1_meal"></textarea></td>
@@ -21,7 +21,7 @@ const Calendar = () => {
 				<td><textarea placeholder="Meal name" maxlength="40" name="sat_wk1_meal"></textarea></td>
 				<td><textarea placeholder="Meal name" maxlength="40" name="sun_wk1_meal"></textarea></td>
 			</tr>
-			<tr class="row3">
+			<tr className="row3">
 				<td>
 					<input type="text" placeholder="Ingredient" maxlength="18" name="mon_wk1_ing1"></input>
 					<input type="text" placeholder="Ingredient" maxlength="18" name="mon_wk1_ing2"></input>
@@ -93,7 +93,6 @@ const Calendar = () => {
 					<input type="text" placeholder="Ingredient" maxlength="18" name="sun_wk1_ing8"></input>
 				</td>
 			</tr>
-
 		</table>
 	);
 }

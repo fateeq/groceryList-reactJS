@@ -1,14 +1,16 @@
 import React from 'react';
 import SectionTitle from './SectionTitle';
 import List from './List';
-import ShowCategorySuggestions from './ShowCategorySuggestions';
+import ShowAllIngredients from './ShowAllIngredients';
 
 const GroceryList = () => {
 	return (
-		<div>
-			<SectionTitle text="Your Grocery List"/>
+		<div className="section">
+			<SectionTitle text="Grocery List"/>
 			<List/>
-			<ShowCategorySuggestions/>
+			<div id="ShowAllIngredientsContainer">	
+				<ShowAllIngredients/>
+			</div>
 		</div>	
 	);
 }

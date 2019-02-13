@@ -3,7 +3,9 @@ import SectionTitle from './SectionTitle';
 
 const CostEstimates = () => {
 	return (
-		<SectionTitle text="Your Cost Estimates"/>
+		<div className="section">
+			<SectionTitle text="Cost Estimates"/>
+		</div>	
 	);
 }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import MealPlan from './MealPlan';
 import GroceryList from './GroceryList';
 import CostEstimates from './CostEstimates';
