@@ -17,10 +17,6 @@
 		border-collapse: collapse;
 	}
 
-	#calendar_wk1 {
-		margin-top: 15px;
-	}
-
 	#calendar_wk2 {
 		display: none;
 	}
@@ -110,6 +106,7 @@
 	#searchBar input {
 		border: none;
 		width:270px;
+		padding-left: 10px;
 	}
 
 	#searchBar input:focus {
@@ -127,7 +124,7 @@
 	}
 
 	#hideMealSuggestionsBtn, #mealSuggestions {
-		display:none;
+		/*display:none;*/
 	}
 
 

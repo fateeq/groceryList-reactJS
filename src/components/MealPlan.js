@@ -3,6 +3,7 @@ import SectionTitle from './SectionTitle';
 import Calendar from './Calendar';
 import AddWeek from './AddWeek';
 import ShowMealSuggestions from './ShowMealSuggestions';
+import MealSuggestions from './MealSuggestions';
 
 const MealPlan = () => {
 	return (
@@ -13,6 +14,7 @@ const MealPlan = () => {
 				<AddWeek/>
 				<ShowMealSuggestions/>
 			</div>
+			<MealSuggestions/>
 		</div>
 	);
 }

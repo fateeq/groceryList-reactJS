@@ -1,0 +1,93 @@
+export const meals = [
+ {
+   primaryKey: 1,
+   mealName: "Pizza with ground turkey",
+   proteinType: "Poultry",
+   ing1: "pizza base",
+   ing2: "cheese",
+   ing3: "ground turkey",
+   ing4: "mushrooms",
+   ing5: "green peppers",
+   ing6: "onions",
+   ing7: "tomatoes",
+   ing8: ""
+ },
+ {
+   primaryKey: 2,
+   mealName: "Salmon with veggies",
+   proteinType: "Seafood",
+   ing1: "salmon",
+   ing2: "roasting carrots",
+   ing3: "broccoli",
+   ing4: "",
+   ing5: "",
+   ing6: "",
+   ing7: "",
+   ing8: ""
+ },
+ {
+   primaryKey: 3,
+   mealName: "Red pepper soup",
+   proteinType: "Vegetarian",
+   ing1: "red peppers",
+   ing2: "tomato",
+   ing3: "stock",
+   ing4: "onions",
+   ing5: "",
+   ing6: "",
+   ing7: "",
+   ing8: ""
+ },
+ {
+   primaryKey: 4,
+   mealName: "Sausage skillet",
+   proteinType: "Beef",
+   ing1: "sausage",
+   ing2: "potatoes",
+   ing3: "carrots",
+   ing4: "broccoli",
+   ing5: "mushrooms",
+   ing6: "",
+   ing7: "",
+   ing8: ""
+ },
+ {
+   primaryKey: 5,
+   mealName: "Burgers",
+   proteinType: "Beef",
+   ing1: "ground beef",
+   ing2: "onions",
+   ing3: "buns",
+   ing4: "",
+   ing5: "",
+   ing6: "",
+   ing7: "",
+   ing8: ""
+ },
+ {
+   primaryKey: 6,
+   mealName: "Lentils w. brown rice",
+   proteinType: "Grains",
+   ing1: "lentils",
+   ing2: "brown rice",
+   ing3: "onions",
+   ing4: "tomatoes",
+   ing5: "",
+   ing6: "",
+   ing7: "",
+   ing8: ""
+ },
+ {
+   primaryKey: 7,
+   mealName: "Tofu stir-fry",
+   proteinType: "Tofu",
+   ing1: "tofu",
+   ing2: "noodles",
+   ing3: "carrots",
+   ing4: "broccoli",
+   ing5: "mushrooms",
+   ing6: "red pepper",
+   ing7: "",
+   ing8: ""
+ }
+]

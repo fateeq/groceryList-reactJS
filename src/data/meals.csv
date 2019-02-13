@@ -1,0 +1,8 @@
+primaryKey,mealName,proteinType,ing1,ing2,ing3,ing4,ing5,ing6,ing7,ing8
+1,Pizza with ground turkey,Poultry,pizza base,cheese,ground turkey,mushrooms,green peppers,onions,tomatoes,
+2,Salmon with veggies,Seafood,salmon,roasting carrots,broccoli,,,,,
+3,Red pepper soup,Vegetarian,red peppers,tomato,stock,onions,,,,
+4,Sausage skillet,Beef,sausage,potatoes,carrots,broccoli,mushrooms,,,
+5,Burgers,Beef,ground beef,onions,buns,,,,,
+6,Lentils w. brown rice,Grains,lentils,brown rice,onions,tomatoes,,,,
+7,Tofu stir-fry,Tofu,tofu,noodles,carrots,broccoli,mushrooms,red pepper,,
