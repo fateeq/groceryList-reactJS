@@ -21,8 +21,10 @@ class MealSuggestions extends Component {
 			return x.mealName.toLowerCase().includes( this.state.searchfield.toLowerCase() )
 		})
 
+		let toggleValue = this.props.toggleValueFromParent;
+
 		return (
-			<div id="mealSuggestions">
+			<div style={ { display: toggleValue ? 'block' : 'none' } }>
 				<SearchBar searchChange={ this.onSearchChange }/>
 				<MealsList meals={ filteredMeals }/>
 			</div>

@@ -6,7 +6,7 @@ library.add(faCaretDown);
 
 const ShowMealSuggestions = () => {
 	return (
-		<div className="showSuggestionsBtn">
+		<div>
 			<FontAwesomeIcon icon="caret-down" /> Show meal suggestions
 		</div>
 	);

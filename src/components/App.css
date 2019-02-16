@@ -123,8 +123,8 @@
 		line-height: 25px;
 	}
 
-	#hideMealSuggestionsBtn, #mealSuggestions {
-		/*display:none;*/
+	#mealSuggestions {
+		display:none;
 	}
 
 
