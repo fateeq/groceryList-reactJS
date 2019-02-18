@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import MealPlan from './MealPlan';
-import GroceryList from './GroceryList';
-import CostEstimates from './CostEstimates';
+import MealPlan from './MealPlan/MealPlan';
+import GroceryList from './GroceryList/GroceryList';
+import CostEstimates from './CostEstimates/CostEstimates';
 
 const App = () => {
   return (

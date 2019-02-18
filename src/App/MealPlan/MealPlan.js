@@ -1,9 +1,9 @@
 import React from 'react';
-import SectionTitle from './SectionTitle';
+import SectionTitle from '../common/SectionTitle';
 import Calendar from './Calendar';
 import AddWeek from './AddWeek';
-import ToggleMealSuggestions from './ToggleMealSuggestions';
-import MealSuggestions from './MealSuggestions';
+import ToggleMealSuggestions from './ToggleMealSuggestions/ToggleMealSuggestions';
+import MealSuggestions from './MealSuggestions/MealSuggestions';
 
 class MealPlan extends React.Component {
 	constructor() {

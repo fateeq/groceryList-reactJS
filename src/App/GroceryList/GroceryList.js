@@ -1,6 +1,6 @@
 import React from 'react';
-import SectionTitle from './SectionTitle';
-import List from './List';
+import SectionTitle from '../common/SectionTitle';
+import List from './List/List';
 import ShowAllIngredients from './ShowAllIngredients';
 
 const GroceryList = () => {
