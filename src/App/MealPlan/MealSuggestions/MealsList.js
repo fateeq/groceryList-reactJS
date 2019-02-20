@@ -5,7 +5,7 @@ const MealsList = ({ meals }) => {
 		<div id="mealsList">
 			<ul>
 				{
-					meals.map((iAmCurrentValue, i) => {
+					meals.map( (iAmCurrentValue, i) => {
 						return <li>{meals[i].mealName}</li>
 					})
 				}

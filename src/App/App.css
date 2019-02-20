@@ -73,6 +73,14 @@
 		color:rgb(179,179,179);
 	}
 
+	#dropDown {
+		position:absolute;
+		padding: 2px;
+		background-color: #f1f1f1;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
 	#calendarFeatures {		/* These are the links/buttons below the calendar */
 		display:flex;
 		justify-content: space-between;
@@ -122,7 +130,6 @@
 		list-style-type: none;
 		line-height: 25px;
 	}
-
 
 /* --- SECTION 2: Auto-generated Grocery List --- */
 

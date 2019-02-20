@@ -1,0 +1,119 @@
+id,category,item,cost,perUnit,from
+1,Other,Almond Milk,3.79,1.89L box,Foodland
+2,Other,Almond Milk,3.79,1.89L box,Foodland
+3,Other,Almond Milk,3.00,1.89L box,FreshCo
+4,Produce,Apples Granny Smith,1.30,each,Sobeys
+5,Produce,Apples Honey Crisp,4.99,bag of ~12,FreshCo
+6,Produce,Apples Honey Crisp,5.99,bag of 10-12,Sobeys
+7,Other,Artichoke dip,3.99,box,Foodland
+8,Produce,Avacados Hass Large,1.99,each,Sobeys
+9,Other,Baguette,2.49,loaf,Sobeys
+10,Produce,Bananas,1.87,bunch of 7,Foodland
+11,Produce,Bananas,1.09,bunch,FreshCo
+12,Produce,Bananas,1.79,bunch,Foodland
+13,Produce,Bananas,1.41,1 bunch,FreshCo
+14,Produce,Bananas - organic,2.78,bunch,Foodland
+15,Other,BBQ Sauce - Bull's Eye,2.99,425 mL bottle,FreshCo
+16,Meat,Beef roasted sliced,3.50,packet,FreshCo
+17,Meat,Beef steak angus,5.00,pack of 2,Foodland
+18,Meat,Beef wieners,5.99,pack of 10,Foodland
+19,Other,Bow tie pasta - Farfelle,1.99,450 g,Sobeys
+20,Other,Bread 12 grain (Dempster's),3.49,600 g pack,Foodland
+21,Other,Bread 12 grain (Dempster's),2.66,600 g pack,FreshCo
+22,Other,Bread white,2.97,1,FreshCo
+23,Other,Bread wholegrain,3.49,1,Sobeys
+24,Produce,Broccoli,2.39,crown,FreshCo
+25,Other,Buns,3.25,pack of 8,FreshCo
+26,Produce,Cabbage,2.49,1 whole,Foodland
+27,Produce,Cabbage,2.49,each,FreshCo
+28,Other,Can corn niblets,1.47,,Foodland
+29,Other,Can corn niblets,1.25,341 mL ,Sobeys
+30,Other,Can of beans,1.25,540 mL,Sobeys
+31,Produce,Carrots,2.49,lb,FreshCo
+32,Produce,Carrots for roasting,1.99,bunch,FreshCo
+33,Other,Cashews,9.99,300g,Foodland
+34,Produce,Celery,3.99,bunch,Foodland
+35,Produce,Celery,2.49,bunch,FreshCo
+36,Other,Cereal - HBO Honey Roasted,6.49,625 g,FreshCo
+37,Other,Cereal - oatmeal crisp,3.99,425 g box,Foodland
+38,Other,Cheddar Cheese - Black Diamond,6.29,block,Foodland
+39,Other,Cheddar Cheese - Black Diamond,5.99,block,Sobeys
+40,Meat,Chicken Breast,5.61,piece,Sobeys
+41,Meat,Chicken Breast,2.94,piece,FreshCo
+42,Other,Chicken Broth,1.79,900 ml ,Foodland
+43,Other,Chicken Noodle soup mix,3.49,4 pouch pack,Sobeys
+44,Meat,Chicken thighs,7.00,pack of 12,Foodland
+45,Meat,Chicken thighs,12.39,pack of 9,Sobeys
+46,Other,Chicken wonton frozen,2.50,,Sobeys
+47,Other,Chocolate chips,3.69,300 g pack,FreshCo
+48,Other,Chocolate Milk 1%,5.19,bag of 3,Foodland
+49,Other,Cream 10%,3.49,1L,Foodland
+50,Other,Cream 10%,3.99,box,Foodland
+51,Other,Cream 10%,3.99,box,Foodland
+52,Other,Croissant Chocolate,1.49,1,Sobeys
+53,Other,Croissants,3.99,pack,Foodland
+54,Other,Croissants mini,3.99,pack of 12,Foodland
+55,Produce,Cucumber,2.79,each,Sobeys
+56,Other,Deep n Delicious - cake,4.69,box,FreshCo
+57,Produce,Dill packaged,2.49,package,Sobeys
+58,Other,Eggs,3.69,pack of 12,Foodland
+59,Other,Eggs,3.89,pack of 12,FreshCo
+60,Other,Eggs,3.59,pack of 12,Foodland
+61,Other,English Muffin,1.77,pack of 6,Foodland
+62,Other,English Muffin,1.99,pack of 6,Foodland
+63,Produce,Garlic,0.68,pack of 5,Foodland
+64,Other,Garlic Bread,3.99,16 pieces,Sobeys
+65,Produce,Ginger root,0.23,large piece,Foodland
+66,Produce,Green bell pepper,1.20,each,Foodland
+67,Produce,Green bell pepper,1.68,each,Sobeys
+68,Produce,Green onions,1.29,1 bunch,FreshCo
+69,Meat,Ground Beef,7.11,small pack,Sobeys
+70,Meat,Ground Beef,10.00,large pack,FreshCo
+71,Meat,Ground chicken,4.49,small pack,Foodland
+72,Meat,Ground Turkey,4.99,small pack,Sobeys
+73,Meat,Ground Turkey,4.00,small pack,FreshCo
+74,Nonfood,Hand soap - Method,3.00,bottle,FreshCo
+75,Other,Hot chocolate mix,3.33,pack,Sobeys
+76,Other,Ketchup (French's),3.99,bottle,Sobeys
+77,Produce,Lemon,0.99,each,Sobeys
+78,Produce,Lemon,0.40,each,FreshCo
+79,Produce,Lime,0.50,each,Sobeys
+80,Other,M&Ms peanuts,3.99,200 g pack,Foodland
+81,Other,Maltesers,3.99,pack,Foodland
+82,Other,McCain's fries,5.99,1.45 kg,FreshCo
+83,Produce,Mushroom - white,3.43,15,Sobeys
+84,Produce,Mushrooms Brown,4.05,18-20,Foodland
+85,Produce,Mushrooms Brown,4.14,18-20,FreshCo
+86,Produce,Mushrooms white,3.91,18-20,Sobeys
+87,Other,Olive oil,8.99,1L bottle,FreshCo
+88,Produce,Onions red,2.99,bag of 10,Foodland
+89,Other,PAM spray,3.00,170 g can,FreshCo
+90,Other,Pancake syrup - Aunt Jemima's,2.49,750 mL bottle,FreshCo
+91,Other,Peanut butter (Plants),4.99,large box,Foodland
+92,Other,Pie Shell - pack of 2,3.49,1,Sobeys
+93,Other,Pitas mini,2.49,1,Sobeys
+94,Produce,Poblano Pepper,0.40,each,Sobeys
+95,Produce,Radicchio,2.46,each,Sobeys
+96,Produce,Red bell pepper,2.17,1,Foodland
+97,Produce,Red bell pepper,0.81,each,FreshCo
+98,Meat,Salmon Atlantic,6.16,piece,FreshCo
+99,Meat,Sausages In-house,3.00,pack of 12,Foodland
+100,Nonfood,Scotties,9.99,box of 9,FreshCo
+101,Meat,Shrimps uncooked,4.99,small pack,Sobeys
+102,Produce,Snow peas,1.88,small pack,Foodland
+103,Produce,Snow peas,1.88,small packet,FreshCo
+104,Produce,Spinach,2.49,bunch,Sobeys
+105,Other,Sprite,3.99,pack of 6,FreshCo
+106,Produce,Toamtoes,1.04,each,Sobeys
+107,Produce,Tomatoes,1.16,each,Foodland
+108,Produce,Tomatoes grape - compliments,2.99,box,Sobeys
+109,Other,Tortellini - large,8.99,1,Sobeys
+110,Other,Tortillas,4.39,pack of 10,Sobeys
+111,Meat,Turkey bacon (Lillidale),4.99,pack,Foodland
+112,Meat,Turkey breast slices,5.00,packet,FreshCo
+113,Other,Vegetable Broth,1.50,1,Sobeys
+114,Other,Vinegar,1.99,small bottle,Sobeys
+115,Other,Walnuts,5.15,2 handfulls,Sobeys
+116,Other,White flour (Rose),3.99,1 kg,Foodland
+117,Other,Yogurt plain,3.79,1,Sobeys
+118,Produce,Zucchini,1.05,piece,FreshCo

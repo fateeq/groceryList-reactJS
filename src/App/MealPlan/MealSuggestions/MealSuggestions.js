@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SearchBar from './SearchBar';
 import MealsList from './MealsList';
-import { meals } from '../../../data/meals.js';
+import { meals } from '../../../data/meals';
 
 class MealSuggestions extends Component {
 	constructor() {

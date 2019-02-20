@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionTitle from '../common/SectionTitle';
-import Calendar from './Calendar';
+import Calendar from './Calendar/Calendar';
 import AddWeek from './AddWeek';
 import ToggleMealSuggestions from './ToggleMealSuggestions/ToggleMealSuggestions';
 import MealSuggestions from './MealSuggestions/MealSuggestions';
