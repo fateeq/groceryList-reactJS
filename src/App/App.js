@@ -6,8 +6,8 @@ import CostEstimates from './CostEstimates/CostEstimates';
 
 const App = () => {
   return (
-		<div>	  
-		  <h2 className="ma0 pa2 bg-black white">Grocery List Manager</h2>
+		<div>
+		  <h2 className="ma0 pa2 bg-black white header">Grocery List Manager</h2>
 		  <MealPlan/>
 		  <GroceryList/>
 		  <CostEstimates/>

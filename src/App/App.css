@@ -1,5 +1,20 @@
 /* GENERIC formatting */
+	
+	html {
+		background-color: rgb(230, 230, 230);
+	}
 
+	body {
+		margin: 0;
+	  padding: 0;
+	}
+
+	#root {
+		background-color: white;
+		margin: auto;
+		width:1100px;
+	}
+	
 	.section {
 		width:986px;
 		margin:auto;
@@ -9,6 +24,10 @@
 		color: rgb(177,177,177);
 		font-weight: normal;
 		cursor: pointer;
+	}
+
+	.header {
+	background-color: rgb(55, 86, 130) !important;		
 	}
 
 /* --- SECTION 1: Weekly Calendar --- */
@@ -75,10 +94,14 @@
 
 	#dropDown {
 		position:absolute;
-		padding: 2px;
 		background-color: #f1f1f1;
 	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	  z-index: 1;
+	}
+
+	#dropDown li:hover {
+		background-color: rgb(68,114,196);
+		color: white;
 	}
 
 	#calendarFeatures {		/* These are the links/buttons below the calendar */

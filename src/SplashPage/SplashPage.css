@@ -1,0 +1,63 @@
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image:url('./shopping-cart.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width:60%;
+	height:60%;
+	border: 10px double #4F4334;
+  background-color: #fff;
+  background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+}
+
+.splashPage h1 {
+  color: #AD3F22;
+  font-size: 2.2em;
+  font-family: 'Lobster', cursive;
+}
+
+.line1 {
+  color: #A2701A;
+  font-weight: bold;
+  font-size: 1.3em;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.line2 {
+  color: #285F54;
+  font-weight: bold;
+  font-size: 1.3em;
+  font-family: 'Poppins', sans-serif;
+}
+
+.splashPage button {
+  background-color: #AD3F22;
+  border:none;
+  font-style: italic;
+  font-size: 1.2em;
+  cursor: pointer;
+  color:white;
+}
+
+.splashPage button:hover {
+  background-color: #82301A;
+}
