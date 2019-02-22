@@ -6,7 +6,7 @@ import CostEstimates from './CostEstimates/CostEstimates';
 
 const App = () => {
   return (
-		<div>
+		<div className="App">
 		  <h2 className="ma0 pa2 bg-black white header">Grocery List Manager</h2>
 		  <MealPlan/>
 		  <GroceryList/>

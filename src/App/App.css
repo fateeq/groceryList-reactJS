@@ -1,5 +1,5 @@
 /* GENERIC formatting */
-	
+
 	html {
 		background-color: rgb(230, 230, 230);
 	}
@@ -27,7 +27,7 @@
 	}
 
 	.header {
-	background-color: rgb(55, 86, 130) !important;		
+		background-color: rgb(55, 86, 130) !important;		
 	}
 
 /* --- SECTION 1: Weekly Calendar --- */
