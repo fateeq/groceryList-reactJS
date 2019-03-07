@@ -80,8 +80,7 @@
 	}
 
 	.calendar textarea {
-		resize:none;
-		height:60px;	
+		resize:none;	
 	}
 
 	.calendar input:focus, .calendar textarea:focus {
@@ -92,14 +91,14 @@
 		color:rgb(179,179,179);
 	}
 
-	#dropDown {
+	#dropDownIngredients, #dropDownMeals {
 		position:absolute;
 		background-color: #f1f1f1;
 	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	  z-index: 1;
 	}
 
-	#dropDown li:hover {
+	#dropDownIngredients li:hover, #dropDownMeals li:hover {
 		background-color: rgb(68,114,196);
 		color: white;
 	}

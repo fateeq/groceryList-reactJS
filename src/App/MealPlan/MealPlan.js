@@ -23,7 +23,7 @@ class MealPlan extends React.Component {
 				<SectionTitle text="Meal Plan"/>
 				<Calendar/>
 				<div id="calendarFeatures" className="flex-container">	
-					<AddWeek/>
+					{/*<AddWeek/>*/}
 					<ToggleMealSuggestions callbackFromParent = {this.myCallBack}/>
 				</div>
 				<MealSuggestions toggleValueFromParent={this.state.toggleValue} />

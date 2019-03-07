@@ -1,8 +1,8 @@
 import React from 'react';
 
-const DropDown = ({ filteredItems }) => {
+const DropDownIngredients = ({ filteredItems }) => {
 	return (
-		<div id="dropDown">
+		<div id="dropDownIngredients">
 			<ul className="list pa1 ma0">
 				{
 					filteredItems.map( (iAmCurrentValue, i) => {
@@ -14,4 +14,4 @@ const DropDown = ({ filteredItems }) => {
 	);
 }
 
-export default DropDown;
+export default DropDownIngredients;

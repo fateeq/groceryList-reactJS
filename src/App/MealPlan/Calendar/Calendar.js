@@ -1,4 +1,5 @@
 import React from 'react';
+import MealInput from './MealInput';
 import IngredientInput from './IngredientInput';
 
 const Calendar = () => {
@@ -17,13 +18,13 @@ const Calendar = () => {
 			</thead>	
 			<tbody>
 				<tr className="row2">
-					<td><textarea placeholder="Meal name" maxLength="40"></textarea></td>
-					<td><textarea placeholder="Meal name" maxLength="40"></textarea></td>
-					<td><textarea placeholder="Meal name" maxLength="40"></textarea></td>
-					<td><textarea placeholder="Meal name" maxLength="40"></textarea></td>
-					<td><textarea placeholder="Meal name" maxLength="40"></textarea></td>
-					<td><textarea placeholder="Meal name" maxLength="40"></textarea></td>
-					<td><textarea placeholder="Meal name" maxLength="40"></textarea></td>
+					<td><MealInput/></td>
+					<td><MealInput/></td>
+					<td><MealInput/></td>
+					<td><MealInput/></td>
+					<td><MealInput/></td>
+					<td><MealInput/></td>
+					<td><MealInput/></td>
 				</tr>
 				<tr className="row3">
 					<td>

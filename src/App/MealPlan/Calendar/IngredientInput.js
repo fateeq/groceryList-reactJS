@@ -1,6 +1,6 @@
 import React from 'react';
 import { costs } from '../../../data/costs';
-import DropDown from './DropDown';
+import DropDownIngredients from './DropDownIngredients';
 
 class IngredientInput extends React.Component {
 	constructor() {
@@ -11,7 +11,7 @@ class IngredientInput extends React.Component {
 		}
 	}
 
-	dropDown = (event) => {
+	dropDownIngredients = (event) => {
 		this.setState({ inputfield: event.target.value });
 	}
 
@@ -24,9 +24,9 @@ class IngredientInput extends React.Component {
 				<input 
 					type="text" 
 					placeholder="Ingredient" 
-					onChange={ this.dropDown }
+					onChange={ this.dropDownIngredients }
 				/>
-				{ (this.state.inputfield !== '') ? <DropDown filteredItems={ filteredItems } /> : null }
+				{ (this.state.inputfield !== '') ? <DropDownIngredients filteredItems={ filteredItems } /> : null }
 			</div>
 		);
 	}
