@@ -10,7 +10,7 @@ class DropDownMeals extends React.Component {
 
 	handleClick = (event) => {
 		const selectedMeal = event.target.innerText;
-		this.props.callbackFromParent(selectedMeal);
+		this.props.callbackFromMealInput(selectedMeal);
 	}
 
 	render() {		
@@ -18,7 +18,7 @@ class DropDownMeals extends React.Component {
 			<div id="dropDownMeals">
 				<ul className="list pa1 ma0">
 					{
-						this.props.filteredMeals.map( x => <li className="ph1" onClick={this.handleClick}> {x} </li> )
+						this.props.filteredMeals.map( (x, index) => <li className="ph1" onClick={this.handleClick} key={index}> {x} </li> )
 					}
 				</ul>
 			</div>

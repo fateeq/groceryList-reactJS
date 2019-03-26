@@ -7,7 +7,7 @@ class IngredientInput extends React.Component {
 		super();
 		this.state = {
 			costs: costs,
-			inputfield: ''
+			inputfield: '',
 		}
 	}
 
@@ -22,6 +22,7 @@ class IngredientInput extends React.Component {
 		return (
 			<div>
 				<input 
+					value={this.props.value}
 					type="text" 
 					placeholder="Ingredient" 
 					onChange={ this.dropDownIngredients }

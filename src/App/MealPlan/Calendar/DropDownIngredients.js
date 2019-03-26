@@ -5,9 +5,7 @@ const DropDownIngredients = ({ filteredItems }) => {
 		<div id="dropDownIngredients">
 			<ul className="list pa1 ma0">
 				{
-					filteredItems.map( (iAmCurrentValue, i) => {
-						return <li className="ph1">{filteredItems[i]}</li>
-					})
+					filteredItems.map( (x,index) => <li className="ph1" key={index} >{x}</li>)
 				}
 			</ul>
 		</div>

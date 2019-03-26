@@ -14,14 +14,16 @@ class MealInput extends React.Component {
 
 	dropDownMeals = (event) => {
 		this.setState({ inputfield: event.target.value }, () => {
-			(this.state.inputfield == '') ? this.setState({ dropDown: false }) : this.setState({ dropDown: true });
+			(this.state.inputfield === '') ? this.setState({ dropDown: false }) : this.setState({ dropDown: true });
 		});
 	}
 
-	myCallback = (selectedMeal) => {
+	selectMeal = (selectedMeal) => {
     this.setState({ inputfield: selectedMeal });
     this.setState({ dropDown: false });
-  }
+    const day = this.props.day;
+    this.props.callbackFromCalendar(selectedMeal, day);
+    }
 
 	render() {
 		const mealNames = this.state.meals.map( x => x.mealName.toLowerCase() );
@@ -39,7 +41,7 @@ class MealInput extends React.Component {
 					(this.state.dropDown) 
 					? <DropDownMeals 
 							filteredMeals={ filteredMeals } 
-							callbackFromParent={this.myCallback}
+							callbackFromMealInput={this.selectMeal}
 						/> 
 					: null 
 				}
