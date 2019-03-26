@@ -19,35 +19,38 @@ class Calendar extends React.Component {
 	}
 
   getIngredients = (selectedMeal, day) => {  	
-  	const mealNames = this.state.meals.map( x => x.mealName.toLowerCase() );
+  	const {Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday} = this.state;
+		
+		const mealNames = this.state.meals.map( x => x.mealName.toLowerCase() );
   	const mealIndex = mealNames.indexOf(selectedMeal);
   	const ingredients = Object.values(this.state.meals[mealIndex]).slice(3); 
   	
   	if (day==='Monday') {
-  		this.state.Monday.meal = selectedMeal; this.forceUpdate();
-  		this.state.Monday.ingredients = ingredients; this.forceUpdate();
+  		Monday.meal = selectedMeal; this.forceUpdate();
+  		Monday.ingredients = ingredients; this.forceUpdate();
   	} else if (day==='Tuesday') {
-  		this.state.Tuesday.meal = selectedMeal; this.forceUpdate();
-  		this.state.Tuesday.ingredients = ingredients; this.forceUpdate();
+  		Tuesday.meal = selectedMeal; this.forceUpdate();
+  		Tuesday.ingredients = ingredients; this.forceUpdate();
   	} else if (day==='Wednesday') {
-  		this.state.Wednesday.meal = selectedMeal; this.forceUpdate();
-  		this.state.Wednesday.ingredients = ingredients; this.forceUpdate();
+  		Wednesday.meal = selectedMeal; this.forceUpdate();
+  		Wednesday.ingredients = ingredients; this.forceUpdate();
   	} else if (day==='Thursday') {
-  		this.state.Thursday.meal = selectedMeal; this.forceUpdate();
-  		this.state.Thursday.ingredients = ingredients; this.forceUpdate();
+  		Thursday.meal = selectedMeal; this.forceUpdate();
+  		Thursday.ingredients = ingredients; this.forceUpdate();
   	} else if (day==='Friday') {
-  		this.state.Friday.meal = selectedMeal; this.forceUpdate();
-  		this.state.Friday.ingredients = ingredients; this.forceUpdate();
+  		Friday.meal = selectedMeal; this.forceUpdate();
+  		Friday.ingredients = ingredients; this.forceUpdate();
   	} else if (day==='Saturday') {
-  		this.state.Saturday.meal = selectedMeal; this.forceUpdate();
-  		this.state.Saturday.ingredients = ingredients; this.forceUpdate();
+  		Saturday.meal = selectedMeal; this.forceUpdate();
+  		Saturday.ingredients = ingredients; this.forceUpdate();
   	} else if (day==='Sunday') {
-  		this.state.Sunday.meal = selectedMeal; this.forceUpdate();
-  		this.state.Sunday.ingredients = ingredients; this.forceUpdate();
+  		Sunday.meal = selectedMeal; this.forceUpdate();
+  		Sunday.ingredients = ingredients; this.forceUpdate();
   	}  	
   }
 
 	render() {
+		const {Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday} = this.state;
 		return (
 			<table id="calendar_wk1" className="calendar">
 				<thead>
@@ -73,74 +76,74 @@ class Calendar extends React.Component {
 					</tr>
 					<tr className="row3">
 						<td>
-							<IngredientInput day="Monday" value={this.state.Monday.ingredients[0]}/>
-							<IngredientInput day="Monday" value={this.state.Monday.ingredients[1]}/>
-							<IngredientInput day="Monday" value={this.state.Monday.ingredients[2]}/>
-							<IngredientInput day="Monday" value={this.state.Monday.ingredients[3]}/>
-							<IngredientInput day="Monday" value={this.state.Monday.ingredients[4]}/>
-							<IngredientInput day="Monday" value={this.state.Monday.ingredients[5]}/>
-							<IngredientInput day="Monday" value={this.state.Monday.ingredients[6]}/>
-							<IngredientInput day="Monday" value={this.state.Monday.ingredients[7]}/>
+							<IngredientInput day="Monday" value={Monday.ingredients[0]}/>
+							<IngredientInput day="Monday" value={Monday.ingredients[1]}/>
+							<IngredientInput day="Monday" value={Monday.ingredients[2]}/>
+							<IngredientInput day="Monday" value={Monday.ingredients[3]}/>
+							<IngredientInput day="Monday" value={Monday.ingredients[4]}/>
+							<IngredientInput day="Monday" value={Monday.ingredients[5]}/>
+							<IngredientInput day="Monday" value={Monday.ingredients[6]}/>
+							<IngredientInput day="Monday" value={Monday.ingredients[7]}/>
 						</td>
 						<td>
-							<IngredientInput day="Tuesday" value={this.state.Tuesday.ingredients[0]}/>
-							<IngredientInput day="Tuesday" value={this.state.Tuesday.ingredients[1]}/>
-							<IngredientInput day="Tuesday" value={this.state.Tuesday.ingredients[2]}/>
-							<IngredientInput day="Tuesday" value={this.state.Tuesday.ingredients[3]}/>
-							<IngredientInput day="Tuesday" value={this.state.Tuesday.ingredients[4]}/>
-							<IngredientInput day="Tuesday" value={this.state.Tuesday.ingredients[5]}/>
-							<IngredientInput day="Tuesday" value={this.state.Tuesday.ingredients[6]}/>
-							<IngredientInput day="Tuesday" value={this.state.Tuesday.ingredients[7]}/>
+							<IngredientInput day="Tuesday" value={Tuesday.ingredients[0]}/>
+							<IngredientInput day="Tuesday" value={Tuesday.ingredients[1]}/>
+							<IngredientInput day="Tuesday" value={Tuesday.ingredients[2]}/>
+							<IngredientInput day="Tuesday" value={Tuesday.ingredients[3]}/>
+							<IngredientInput day="Tuesday" value={Tuesday.ingredients[4]}/>
+							<IngredientInput day="Tuesday" value={Tuesday.ingredients[5]}/>
+							<IngredientInput day="Tuesday" value={Tuesday.ingredients[6]}/>
+							<IngredientInput day="Tuesday" value={Tuesday.ingredients[7]}/>
 						</td>
 						<td>
-							<IngredientInput day="Wednesday" value={this.state.Wednesday.ingredients[0]}/>
-							<IngredientInput day="Wednesday" value={this.state.Wednesday.ingredients[1]}/>
-							<IngredientInput day="Wednesday" value={this.state.Wednesday.ingredients[2]}/>
-							<IngredientInput day="Wednesday" value={this.state.Wednesday.ingredients[3]}/>
-							<IngredientInput day="Wednesday" value={this.state.Wednesday.ingredients[4]}/>
-							<IngredientInput day="Wednesday" value={this.state.Wednesday.ingredients[5]}/>
-							<IngredientInput day="Wednesday" value={this.state.Wednesday.ingredients[6]}/>
-							<IngredientInput day="Wednesday" value={this.state.Wednesday.ingredients[7]}/>
+							<IngredientInput day="Wednesday" value={Wednesday.ingredients[0]}/>
+							<IngredientInput day="Wednesday" value={Wednesday.ingredients[1]}/>
+							<IngredientInput day="Wednesday" value={Wednesday.ingredients[2]}/>
+							<IngredientInput day="Wednesday" value={Wednesday.ingredients[3]}/>
+							<IngredientInput day="Wednesday" value={Wednesday.ingredients[4]}/>
+							<IngredientInput day="Wednesday" value={Wednesday.ingredients[5]}/>
+							<IngredientInput day="Wednesday" value={Wednesday.ingredients[6]}/>
+							<IngredientInput day="Wednesday" value={Wednesday.ingredients[7]}/>
 						</td>
 						<td>
-							<IngredientInput day="Thursday" value={this.state.Thursday.ingredients[0]}/>
-							<IngredientInput day="Thursday" value={this.state.Thursday.ingredients[1]}/>
-							<IngredientInput day="Thursday" value={this.state.Thursday.ingredients[2]}/>
-							<IngredientInput day="Thursday" value={this.state.Thursday.ingredients[3]}/>
-							<IngredientInput day="Thursday" value={this.state.Thursday.ingredients[4]}/>
-							<IngredientInput day="Thursday" value={this.state.Thursday.ingredients[5]}/>
-							<IngredientInput day="Thursday" value={this.state.Thursday.ingredients[6]}/>
-							<IngredientInput day="Thursday" value={this.state.Thursday.ingredients[7]}/>
+							<IngredientInput day="Thursday" value={Thursday.ingredients[0]}/>
+							<IngredientInput day="Thursday" value={Thursday.ingredients[1]}/>
+							<IngredientInput day="Thursday" value={Thursday.ingredients[2]}/>
+							<IngredientInput day="Thursday" value={Thursday.ingredients[3]}/>
+							<IngredientInput day="Thursday" value={Thursday.ingredients[4]}/>
+							<IngredientInput day="Thursday" value={Thursday.ingredients[5]}/>
+							<IngredientInput day="Thursday" value={Thursday.ingredients[6]}/>
+							<IngredientInput day="Thursday" value={Thursday.ingredients[7]}/>
 						</td>
 						<td>
-							<IngredientInput day="Friday" value={this.state.Friday.ingredients[0]}/>
-							<IngredientInput day="Friday" value={this.state.Friday.ingredients[1]}/>
-							<IngredientInput day="Friday" value={this.state.Friday.ingredients[2]}/>
-							<IngredientInput day="Friday" value={this.state.Friday.ingredients[3]}/>
-							<IngredientInput day="Friday" value={this.state.Friday.ingredients[4]}/>
-							<IngredientInput day="Friday" value={this.state.Friday.ingredients[5]}/>
-							<IngredientInput day="Friday" value={this.state.Friday.ingredients[6]}/>
-							<IngredientInput day="Friday" value={this.state.Friday.ingredients[7]}/>
+							<IngredientInput day="Friday" value={Friday.ingredients[0]}/>
+							<IngredientInput day="Friday" value={Friday.ingredients[1]}/>
+							<IngredientInput day="Friday" value={Friday.ingredients[2]}/>
+							<IngredientInput day="Friday" value={Friday.ingredients[3]}/>
+							<IngredientInput day="Friday" value={Friday.ingredients[4]}/>
+							<IngredientInput day="Friday" value={Friday.ingredients[5]}/>
+							<IngredientInput day="Friday" value={Friday.ingredients[6]}/>
+							<IngredientInput day="Friday" value={Friday.ingredients[7]}/>
 						</td>
 						<td>
-							<IngredientInput day="Saturday" value={this.state.Saturday.ingredients[0]}/>
-							<IngredientInput day="Saturday" value={this.state.Saturday.ingredients[1]}/>
-							<IngredientInput day="Saturday" value={this.state.Saturday.ingredients[2]}/>
-							<IngredientInput day="Saturday" value={this.state.Saturday.ingredients[3]}/>
-							<IngredientInput day="Saturday" value={this.state.Saturday.ingredients[4]}/>
-							<IngredientInput day="Saturday" value={this.state.Saturday.ingredients[5]}/>
-							<IngredientInput day="Saturday" value={this.state.Saturday.ingredients[6]}/>
-							<IngredientInput day="Saturday" value={this.state.Saturday.ingredients[7]}/>
+							<IngredientInput day="Saturday" value={Saturday.ingredients[0]}/>
+							<IngredientInput day="Saturday" value={Saturday.ingredients[1]}/>
+							<IngredientInput day="Saturday" value={Saturday.ingredients[2]}/>
+							<IngredientInput day="Saturday" value={Saturday.ingredients[3]}/>
+							<IngredientInput day="Saturday" value={Saturday.ingredients[4]}/>
+							<IngredientInput day="Saturday" value={Saturday.ingredients[5]}/>
+							<IngredientInput day="Saturday" value={Saturday.ingredients[6]}/>
+							<IngredientInput day="Saturday" value={Saturday.ingredients[7]}/>
 						</td>
 						<td>
-							<IngredientInput day="Sunday" value={this.state.Sunday.ingredients[0]}/>
-							<IngredientInput day="Sunday" value={this.state.Sunday.ingredients[1]}/>
-							<IngredientInput day="Sunday" value={this.state.Sunday.ingredients[2]}/>
-							<IngredientInput day="Sunday" value={this.state.Sunday.ingredients[3]}/>
-							<IngredientInput day="Sunday" value={this.state.Sunday.ingredients[4]}/>
-							<IngredientInput day="Sunday" value={this.state.Sunday.ingredients[5]}/>
-							<IngredientInput day="Sunday" value={this.state.Sunday.ingredients[6]}/>
-							<IngredientInput day="Sunday" value={this.state.Sunday.ingredients[7]}/>
+							<IngredientInput day="Sunday" value={Sunday.ingredients[0]}/>
+							<IngredientInput day="Sunday" value={Sunday.ingredients[1]}/>
+							<IngredientInput day="Sunday" value={Sunday.ingredients[2]}/>
+							<IngredientInput day="Sunday" value={Sunday.ingredients[3]}/>
+							<IngredientInput day="Sunday" value={Sunday.ingredients[4]}/>
+							<IngredientInput day="Sunday" value={Sunday.ingredients[5]}/>
+							<IngredientInput day="Sunday" value={Sunday.ingredients[6]}/>
+							<IngredientInput day="Sunday" value={Sunday.ingredients[7]}/>
 						</td>
 					</tr>
 				</tbody>
